@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Data Example</title>
+</head>
+<body>
+
+<h1>Dynamic Data Example</h1>
+
+<div id="data-container">
+    <!-- Fetched data will be displayed here -->
+</div>
+
+<script>
+    // Replace with the URL of your external API or serverless function
+    const apiUrl = 'https://jsonplaceholder.typicode.com/todos/1';
+
+    // Fetch dynamic data
+    fetch(apiUrl)
